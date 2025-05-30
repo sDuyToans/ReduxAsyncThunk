@@ -1,13 +1,16 @@
-import './App.css'
+import "./App.css";
 import Task from "./components/tasks";
 function App() {
-
   return (
-    <div>
+    <div
+      style={{
+        textAlign: "center",
+      }}
+    >
       <h3>Create Async Thunk - Fetch API</h3>
-      <Task/>
+      <Task />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
